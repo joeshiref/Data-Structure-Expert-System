@@ -1,0 +1,33 @@
+﻿Build started 1/1/2017 7:13:53 PM.
+     1>Project "E:\projects\Data Structure Expert System\NewProject\NewProject.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt Sparse.cpp
+         Sparse.cpp
+     1>Sparse.cpp(13): warning C4244: '=' : conversion from 'long double' to 'int', possible loss of data
+     1>Sparse.cpp(26): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Sparse.cpp(39): warning C4244: '=' : conversion from 'long double' to 'int', possible loss of data
+     1>Sparse.cpp(40): warning C4244: 'initializing' : conversion from 'double' to '__int64', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\Data Structure Expert System\x64\Debug\NewProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\projects\Data Structure Expert System\x64\Debug\NewProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\Data Structure Expert System\x64\Debug\NewProject.lib" /MACHINE:X64 x64\Debug\Arraylist.obj
+         x64\Debug\AVL_tree.obj
+         x64\Debug\ExpertDS.obj
+         x64\Debug\hashtable.obj
+         x64\Debug\Int_tries.obj
+         x64\Debug\linkedlist.obj
+         x64\Debug\Node.obj
+         x64\Debug\Queue.obj
+         x64\Debug\Segmax.obj
+         x64\Debug\Segmin.obj
+         x64\Debug\Segsum.obj
+         x64\Debug\Source.obj
+         x64\Debug\Sparse.obj
+         x64\Debug\Stack.obj
+         x64\Debug\Unordered_map.obj
+         x64\Debug\Vector.obj
+         NewProject.vcxproj -> E:\projects\Data Structure Expert System\x64\Debug\NewProject.exe
+     1>Done Building Project "E:\projects\Data Structure Expert System\NewProject\NewProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.19

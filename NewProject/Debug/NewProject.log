@@ -1,0 +1,55 @@
+﻿  ExpertDS.cpp
+c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\hashtable.cpp(205): warning C4553: '==': operator has no effect; did you intend '='?
+  c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\hashtable.cpp(180): note: while compiling class template member function 'void hashtable<K,Q>::put(K,Q)'
+          with
+          [
+              K=std::string,
+              Q=int
+          ]
+  c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\unordered_map.cpp(8): note: see reference to function template instantiation 'void hashtable<K,Q>::put(K,Q)' being compiled
+          with
+          [
+              K=std::string,
+              Q=int
+          ]
+  c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\unordered_map.cpp(7): note: while compiling class template member function 'void Unordered_map<std::string,int>::insert(K,Q)'
+          with
+          [
+              K=std::string,
+              Q=int
+          ]
+  c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\expertds.cpp(48): note: see reference to function template instantiation 'void Unordered_map<std::string,int>::insert(K,Q)' being compiled
+          with
+          [
+              K=std::string,
+              Q=int
+          ]
+  c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\expertds.cpp(36): note: see reference to class template instantiation 'Unordered_map<std::string,int>' being compiled
+c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\hashtable.cpp(165): warning C4018: '<': signed/unsigned mismatch
+  c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\hashtable.cpp(152): note: while compiling class template member function 'unsigned int hashtable<K,Q>::hashing(K)'
+          with
+          [
+              K=std::string,
+              Q=int
+          ]
+  c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\hashtable.cpp(128): note: see reference to function template instantiation 'unsigned int hashtable<K,Q>::hashing(K)' being compiled
+          with
+          [
+              K=std::string,
+              Q=int
+          ]
+  c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\hashtable.cpp(52): note: while compiling class template member function 'void hashtable<K,Q>::little_sieve(void)'
+          with
+          [
+              K=std::string,
+              Q=int
+          ]
+  c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\hashtable.cpp(20): note: see reference to function template instantiation 'void hashtable<K,Q>::little_sieve(void)' being compiled
+          with
+          [
+              K=std::string,
+              Q=int
+          ]
+c:\users\joe\documents\visual studio 2015\projects\newproject\newproject\hashtable.cpp(153): warning C4101: 'test': unreferenced local variable
+  NewProject.vcxproj -> C:\Users\Joe\Documents\Visual Studio 2015\Projects\NewProject\Debug\NewProject.exe
+  NewProject.vcxproj -> C:\Users\Joe\Documents\Visual Studio 2015\Projects\NewProject\Debug\NewProject.pdb (Full PDB)
